@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Paul\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Paul\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_DotNetCoreWebApi.885885365.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Paul\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Paul\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="D:\repos\DotNetCoreWebApi" t="IncludeFlat">
+      <e p="DotNetCoreWebApi.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WebApi" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="ProfileController.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="DbRole.cs" t="Include" />
+          <e p="DbUser.cs" t="Include" />
+          <e p="DbUserRole.cs" t="Include" />
+          <e p="EfContext.cs" t="Include" />
+          <e p="SeederDB.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="UserLoginViewModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WebApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="JwtTokenService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="test.file" t="Include" />
+        <e p="WebApi.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
