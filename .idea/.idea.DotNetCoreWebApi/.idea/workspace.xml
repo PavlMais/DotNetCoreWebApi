@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ece54057-c34c-489e-98aa-7a3576a3a457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DotNetCoreWebApi.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/WebApi.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Migrations/20201013064040_InitialCreate.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Migrations/20201013064040_InitialCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Migrations/EfContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +25,32 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/WebApi/WeatherForecast.cs" />
       <option value="$PROJECT_DIR$/WebApi/WebApi.csproj" />
-      <option value="$PROJECT_DIR$/WebApi/appsettings.json" />
       <option value="$PROJECT_DIR$/WebApi/Startup.cs" />
+      <option value="$PROJECT_DIR$/WebApi/appsettings.json" />
+      <option value="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1iYxQDBwVzMdEVqdXuonzA9jfw6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApi">
@@ -88,14 +93,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602098307927</updated>
-      <workItem from="1602098329789" duration="591000" />
+      <workItem from="1602098329789" duration="2354000" />
+      <workItem from="1602569599814" duration="2056000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -107,26 +113,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1602098723046">
+    <state x="223" y="87" width="1089" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602570904282">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602098723046" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1602098723046">
+    <state x="223" y="87" width="1089" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1602570904282" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1602571028930">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602098723046" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1602098723046">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602571028930" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1602571028930">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602098723046" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1602098723046">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602571028930" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1602571028926">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602098723046" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602571028926" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1602571028930">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602571028930" />
+    <state x="599" y="213" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1602570870812">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="599" y="213" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1536.864@0.0.1536.864" timestamp="1602570870812" />
   </component>
 </project>
