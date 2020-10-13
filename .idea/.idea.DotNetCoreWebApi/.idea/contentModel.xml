@@ -47,7 +47,13 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="test.file" t="Include" />
+        <e p="Uploads" t="Include">
+          <e p="3kml3qlv.n1p.jpg" t="Include" />
+        </e>
         <e p="WebApi.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="img" t="Include" />
+        </e>
       </e>
     </e>
   </component>

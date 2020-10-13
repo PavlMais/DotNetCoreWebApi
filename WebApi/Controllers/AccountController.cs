@@ -1,12 +1,17 @@
-﻿using System.Linq;
+﻿using System;
+using System.IO;
+using System.Linq;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.Threading.Tasks;
 using FastFood.WebApi.Entities;
 using FastFood.WebApi.Models;
 using FastFood.WebApi.Services;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FastFood.WebApi.Controllers
+namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -16,16 +21,19 @@ namespace FastFood.WebApi.Controllers
         private readonly UserManager<DbUser> _userManager;
         private readonly SignInManager<DbUser> _signInManager;
         private readonly IJwtTokenService _IJwtTokenService;
+        private readonly IWebHostEnvironment _env;
 
         public AccountController(EfContext context,
             UserManager<DbUser> userManager,
             SignInManager<DbUser> signInManager,
-            IJwtTokenService IJwtTokenService)
+            IJwtTokenService IJwtTokenService,
+            IWebHostEnvironment env)
         {
             _userManager = userManager;
             _context = context;
             _signInManager = signInManager;
             _IJwtTokenService = IJwtTokenService;
+            _env = env;
         }
             
         [HttpPost("login")]
@@ -68,12 +76,38 @@ namespace FastFood.WebApi.Controllers
                 //var errrors = CustomValidator.GetErrorsByModel(ModelState);
                 return BadRequest("Bad Model");
             }
+            
+            
+            var base64 = model.ImageBase64;
+            if (base64.Contains(","))
+            {
+                base64 = base64.Split(',')[1];
+            }
+            var bmp = FromBase64StringToImage(base64);
+
+            var serverPath = _env.ContentRootPath; //Directory.GetCurrentDirectory(); //_env.WebRootPath;
+            
+            var path = Path.Combine(serverPath, "Uploads"); //
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+          
+            var fileName = Path.GetRandomFileName() + ".jpg";
+
+            var filePathSave = Path.Combine(path, fileName);
+
+            bmp.Save(filePathSave, ImageFormat.Jpeg);
+            
+            
+            
+            
 
             var user = new DbUser
             {
                 Email = model.Email,
                 UserName = model.Email,
-                Image = "https://cdn.pixabay.com/photo/2017/07/28/23/34/fantasy-picture-2550222_960_720.jpg",
+                Image = filePathSave,
                 Age = 30,
                 Phone = model.Phone,
                 Description = "PHP programmer"
@@ -87,6 +121,26 @@ namespace FastFood.WebApi.Controllers
             }
 
             return Ok();
+        }
+        
+        public static Bitmap FromBase64StringToImage(string base64String)
+        {
+            byte[] byteBuffer = Convert.FromBase64String(base64String);
+            try
+            {
+                using (MemoryStream memoryStream = new MemoryStream(byteBuffer))
+                {
+                    memoryStream.Position = 0;
+                    using (Image imgReturn = Image.FromStream(memoryStream))
+                    {
+                        memoryStream.Close();
+                        byteBuffer = null;
+                        return new Bitmap(imgReturn);
+                    }
+                }
+            }
+            catch { return null; }
+
         }
     }
 }

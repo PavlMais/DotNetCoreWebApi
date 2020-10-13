@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ece54057-c34c-489e-98aa-7a3576a3a457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApi/Migrations/20201013064040_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/Migrations/20201013064040_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi/Migrations/EfContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Uploads/3kml3qlv.n1p.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Controllers/AccountController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/WebApi.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +23,11 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/WebApi/WeatherForecast.cs" />
-      <option value="$PROJECT_DIR$/WebApi/WebApi.csproj" />
-      <option value="$PROJECT_DIR$/WebApi/Startup.cs" />
       <option value="$PROJECT_DIR$/WebApi/appsettings.json" />
       <option value="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" />
+      <option value="$PROJECT_DIR$/WebApi/WebApi.csproj" />
+      <option value="$PROJECT_DIR$/WebApi/Startup.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Controllers/AccountController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1iYxQDBwVzMdEVqdXuonzA9jfw6" />
@@ -94,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602098307927</updated>
       <workItem from="1602098329789" duration="2354000" />
-      <workItem from="1602569599814" duration="2056000" />
+      <workItem from="1602569599814" duration="3981000" />
     </task>
     <servers />
   </component>
