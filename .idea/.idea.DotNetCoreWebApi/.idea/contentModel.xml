@@ -24,12 +24,13 @@
           <e p="SeederDB.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20201013064040_InitialCreate.cs" t="Include" />
-          <e p="20201013064040_InitialCreate.Designer.cs" t="Include" />
+          <e p="20201021080503_initMigratio.cs" t="Include" />
+          <e p="20201021080503_initMigratio.Designer.cs" t="Include" />
           <e p="EfContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="UserLoginViewModel.cs" t="Include" />
+          <e p="UserProfileModel.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -49,6 +50,11 @@
         <e p="test.file" t="Include" />
         <e p="Uploads" t="Include">
           <e p="3kml3qlv.n1p.jpg" t="Include" />
+          <e p="fwjbqw0v.1it.jpg" t="Include" />
+          <e p="j0qtcyyv.14b.jpg" t="Include" />
+        </e>
+        <e p="Utils" t="Include">
+          <e p="ImageConvertor.cs" t="Include" />
         </e>
         <e p="WebApi.csproj" t="IncludeRecursive" />
         <e p="wwwroot" t="Include">

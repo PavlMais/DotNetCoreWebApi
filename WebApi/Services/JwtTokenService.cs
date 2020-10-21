@@ -4,13 +4,13 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using FastFood.WebApi.Entities;
+using WebApi.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
 
-namespace FastFood.WebApi.Services
+namespace WebApi.Services
 {
     public interface IJwtTokenService
     {

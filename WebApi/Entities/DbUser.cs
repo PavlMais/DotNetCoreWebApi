@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 
-namespace FastFood.WebApi.Entities
+namespace WebApi.Entities
 {
     public class DbUser : IdentityUser<long>
     {

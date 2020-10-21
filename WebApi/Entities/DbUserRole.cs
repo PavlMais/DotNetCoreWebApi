@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace FastFood.WebApi.Entities
+namespace WebApi.Entities
 {
     public class DbUserRole : IdentityUserRole<long>
     {

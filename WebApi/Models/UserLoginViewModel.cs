@@ -1,4 +1,4 @@
-﻿namespace FastFood.WebApi.Models
+﻿namespace WebApi.Models
 {
     public class UserLoginViewModel
     {

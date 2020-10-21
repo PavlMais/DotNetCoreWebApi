@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-namespace FastFood.WebApi.Entities
+namespace WebApi.Entities
 {
     public class EfContext : IdentityDbContext<DbUser, DbRole, long, IdentityUserClaim<long>,
         DbUserRole, IdentityUserLogin<long>,

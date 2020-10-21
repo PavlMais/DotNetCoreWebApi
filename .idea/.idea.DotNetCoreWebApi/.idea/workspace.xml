@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ece54057-c34c-489e-98aa-7a3576a3a457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApi/Uploads/3kml3qlv.n1p.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Models/UserProfileModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Uploads/fwjbqw0v.1it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Uploads/j0qtcyyv.14b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi/Utils/ImageConvertor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DotNetCoreWebApi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Controllers/ProfileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Controllers/ProfileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Entities/DbRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Entities/DbRole.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Entities/DbUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Entities/DbUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Entities/DbUserRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Entities/DbUserRole.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Entities/EfContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Entities/EfContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Migrations/20201013064040_InitialCreate.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Migrations/20201021080503_initMigratio.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Migrations/20201013064040_InitialCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Migrations/20201021080503_initMigratio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Migrations/EfContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Migrations/EfContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Models/UserLoginViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Models/UserLoginViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Services/JwtTokenService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Services/JwtTokenService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi/WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/WebApi.csproj" afterDir="false" />
     </list>
@@ -20,14 +34,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/25F/AsyncMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/24/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F680C866-D120-4163-9634-EBD842255BE9/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3294A405-33A5-4510-A2B8-2FF3AA301412/1D/StringLengthAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/16F/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/14E/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0C2811BE-F51A-4055-8F7E-A1FFA1110A6D/5/Claim.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/WebApi/WeatherForecast.cs" />
-      <option value="$PROJECT_DIR$/WebApi/appsettings.json" />
+      <option value="$PROJECT_DIR$/WebApi/Models/UserLoginViewModel.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Entities/DbRole.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Entities/DbUser.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Entities/DbUserRole.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Entities/EfContext.cs" />
       <option value="$PROJECT_DIR$/WebApi/Entities/SeederDB.cs" />
-      <option value="$PROJECT_DIR$/WebApi/WebApi.csproj" />
-      <option value="$PROJECT_DIR$/WebApi/Startup.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Services/JwtTokenService.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Migrations/EfContextModelSnapshot.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Migrations/20201013064040_InitialCreate.Designer.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Models/UserProfileModel.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Utils/ImageConvertor.cs" />
+      <option value="$PROJECT_DIR$/WebApi/Controllers/ProfileController.cs" />
       <option value="$PROJECT_DIR$/WebApi/Controllers/AccountController.cs" />
+      <option value="$PROJECT_DIR$/WebApi/appsettings.json" />
+      <option value="$PROJECT_DIR$/WebApi/Startup.cs" />
+      <option value="$PROJECT_DIR$/WebApi/WebApi.csproj" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1iYxQDBwVzMdEVqdXuonzA9jfw6" />
@@ -42,6 +77,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34989503" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,6 +88,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApi">
@@ -94,7 +132,10 @@
       <option name="presentableId" value="Default" />
       <updated>1602098307927</updated>
       <workItem from="1602098329789" duration="2354000" />
-      <workItem from="1602569599814" duration="3981000" />
+      <workItem from="1602569599814" duration="6754000" />
+      <workItem from="1603096813103" duration="1501000" />
+      <workItem from="1603181434107" duration="3998000" />
+      <workItem from="1603260763338" duration="4789000" />
     </task>
     <servers />
   </component>
@@ -124,25 +165,137 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" width="1089" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1602570904282" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1602571028930">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="409" height="464" key="DebuggerActiveHint" timestamp="1603262033484">
+      <screen x="34" y="0" width="1502" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602571028930" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1602571028930">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="409" height="464" key="DebuggerActiveHint/34.0.1502.864@34.0.1502.864" timestamp="1603262033484" />
+    <state width="1460" height="270" key="GridCell.Tab.0.bottom" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602571028930" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1602571028926">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1502.864@0.0.1502.864" timestamp="1602579928506" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603097128791" />
+    <state width="1460" height="270" key="GridCell.Tab.0.bottom/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.0.center" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602571028926" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1602571028930">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1502.864@0.0.1502.864" timestamp="1602579928506" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603097128791" />
+    <state width="1460" height="270" key="GridCell.Tab.0.center/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.0.left" timestamp="1603267429893">
+      <screen x="34" y="0" width="1502" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602571028930" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1502.864@0.0.1502.864" timestamp="1602579928506" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603097128787" />
+    <state width="1460" height="270" key="GridCell.Tab.0.left/34.0.1502.864@34.0.1502.864" timestamp="1603267429893" />
+    <state width="1460" height="270" key="GridCell.Tab.0.right" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1502.864@0.0.1502.864" timestamp="1602579928506" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603097128791" />
+    <state width="1460" height="270" key="GridCell.Tab.0.right/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.1.bottom" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.1.bottom/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.1.center" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.1.center/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.1.left" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.1.left/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.1.right" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.1.right/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.2.bottom" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.2.bottom/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.2.center" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.2.center/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.2.left" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.2.left/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.2.right" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.2.right/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.3.bottom" timestamp="1603267429895">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.3.bottom/34.0.1502.864@34.0.1502.864" timestamp="1603267429895" />
+    <state width="1460" height="270" key="GridCell.Tab.3.center" timestamp="1603267429895">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.3.center/34.0.1502.864@34.0.1502.864" timestamp="1603267429895" />
+    <state width="1460" height="270" key="GridCell.Tab.3.left" timestamp="1603267429894">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.3.left/34.0.1502.864@34.0.1502.864" timestamp="1603267429894" />
+    <state width="1460" height="270" key="GridCell.Tab.3.right" timestamp="1603267429895">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.3.right/34.0.1502.864@34.0.1502.864" timestamp="1603267429895" />
+    <state width="1460" height="270" key="GridCell.Tab.4.bottom" timestamp="1603267429895">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.4.bottom/34.0.1502.864@34.0.1502.864" timestamp="1603267429895" />
+    <state width="1460" height="270" key="GridCell.Tab.4.center" timestamp="1603267429895">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.4.center/34.0.1502.864@34.0.1502.864" timestamp="1603267429895" />
+    <state width="1460" height="270" key="GridCell.Tab.4.left" timestamp="1603267429895">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.4.left/34.0.1502.864@34.0.1502.864" timestamp="1603267429895" />
+    <state width="1460" height="270" key="GridCell.Tab.4.right" timestamp="1603267429895">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state width="1460" height="270" key="GridCell.Tab.4.right/34.0.1502.864@34.0.1502.864" timestamp="1603267429895" />
     <state x="599" y="213" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1602570870812">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="599" y="213" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1536.864@0.0.1536.864" timestamp="1602570870812" />
+    <state x="474" y="167" width="620" height="530" key="find.popup" timestamp="1603097657861">
+      <screen x="34" y="0" width="1502" height="864" />
+    </state>
+    <state x="474" y="167" width="620" height="530" key="find.popup/34.0.1502.864@34.0.1502.864" timestamp="1603097657861" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApi/Controllers/ProfileController.cs</url>
+          <line>40</line>
+          <properties documentPath="D:\repos\DotNetCoreWebApi\WebApi\Controllers\ProfileController.cs" initialLine="34" containingFunctionPresentation="method 'Update'">
+            <startOffsets>
+              <option value="1199" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1200" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApi/Controllers/ProfileController.cs</url>
+          <line>57</line>
+          <properties documentPath="D:\repos\DotNetCoreWebApi\WebApi\Controllers\ProfileController.cs" initialLine="57" containingFunctionPresentation="method 'ChangePhoto'">
+            <startOffsets>
+              <option value="1827" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1828" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

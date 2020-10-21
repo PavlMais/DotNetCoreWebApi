@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace FastFood.WebApi.Entities
+namespace WebApi.Entities
 {
     public class SeederDB
     {

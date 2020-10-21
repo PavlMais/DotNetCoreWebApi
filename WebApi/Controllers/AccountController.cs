@@ -4,9 +4,9 @@ using System.Linq;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Threading.Tasks;
-using FastFood.WebApi.Entities;
-using FastFood.WebApi.Models;
-using FastFood.WebApi.Services;
+using WebApi.Entities;
+using WebApi.Models;
+using WebApi.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -98,16 +98,12 @@ namespace WebApi.Controllers
             var filePathSave = Path.Combine(path, fileName);
 
             bmp.Save(filePathSave, ImageFormat.Jpeg);
-            
-            
-            
-            
 
             var user = new DbUser
             {
                 Email = model.Email,
                 UserName = model.Email,
-                Image = filePathSave,
+                Image = fileName,
                 Age = 30,
                 Phone = model.Phone,
                 Description = "PHP programmer"

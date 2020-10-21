@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text;
-using FastFood.WebApi.Entities;
-using FastFood.WebApi.Services;
+using WebApi.Entities;
+using WebApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,8 +34,11 @@ namespace WebApi
         {
             services.AddCors();
             // Add framework services.
-            services.AddDbContext<EfContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<EfContext>(options =>
+            //    options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<EfContext>(opt =>
+                opt.UseSqlServer(Configuration
+                    .GetConnectionString("DefaultConnection")));
 
             //services.AddIdentity<DbUser, DbRole>()
             //    .AddEntityFrameworkStores<EFContext>();
